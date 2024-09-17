@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="left">
+            <img src="images/pum.png" alt="logo">
+        </div>
+        <div class="right">
+            <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Contact</a></li>
+   
+            </ul>
+        </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+        <div class="leftsection">
+            <h1>Hi, My name is <span>Pummy Kumari</span> </h1>
+            <p1> Student of RNTU Bhopal , And I'm a Software Engineering.<br> </p1> 
+            <a href="images/PummyKumariResume111.pdf" class="btn btn2">Download Resume</a>
+
+        </div>
+        <div class="rightsection">
+            <img src="images/pumma1.jpg" alt="" >
+        </div>
+    </section>
+  </main>
+
+  <!-- ...........About .........-->
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/pumma1.jpg" >
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p2> Hello ! I'm <span>Pummy Kumari</span></p2>
+                    <p> I am pursuing a Bachelor in Computer Science & Engineering From
+                        Ravindranath Tagore Unversity , Bhopal and I am looking for an 
+                        opportunity where I can utilize my skills and contribute to the 
+                        organisation's growth. I am keen to learn and upgrade my skills to
+                        grow in my field.
+                    </p>
+                
+                           <div class="tab-title">
+                            <p class="tab-link active-link" onclick="opentab(`skill`)">Skills</p>
+                            <p class="tab-link" onclick="opentab(`project`)">Project</p>
+                            <p class="tab-link" onclick="opentab(`education`)" >Education</p>
+                           </div>
+                           <div class="tab-content active-tab" id="skill">
+                            <ul>
+                            <li><span> C , C++ , Java , Python</span></li>
+                            <li><span>Web Development</span><br> </li>
+                            <li><span>Frontend Development</span> <br>Web pages design using html ,css ,js</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-content" id="project">
+                        <ul>
+                        <li><span> CharityOn</span><br>Our charity will provide a facility to provide food to hunger individual person.</li>
+                        <li><span>Bubble Game</span><br> Its enjoying for the kids</li>
+                        <li><span>Mini Resturant clone</span> <br>Web pages design using html ,css ,js</li>
+                        <li><span>Amazone clone </span> </li>
+                    </ul>
+                 </div>
+
+                     <div class="tab-content" id="education">
+                        <ul>
+                        <li><span> 2017</span><br>Matriculation... [74%]...(BSEB)</li>
+                        <li><span>2017-2019</span><br> Intermediate Isc...PCM...[72%] (BSEB)</li>
+                        <li><span>2019-2022</span> <br>Diploma in Computer Science Engineering From GWP PATNA...[8.66 cgpa]... (SBTE)</li>
+                        <li><span>2022-2025</span> <br>Betch in Cse From RNTU BHOPAL  (8.55 cgpa)</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ............Portfolio.................-->
+
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>Work</span></h1>
+            <div class="work-list">
+                
+                
+                <div class="work"> <br>
+                    <h1>  Web Development</h1>
+                    <p class="web-txt">As a web developer , my technical 
+                                      prowess encompasses a diverse 
+                                      range of skills. On the Frontend ,
+                                      I'm adept at crafting dynamic and 
+                                      user-friendly interfaces using HTML5 ,css3
+                                      and Javascript. My understanding of
+                                       responsive design.
+                    </p>
+                    <div class="layer">
+                    <h3>Web Developer</h3>
+                        
+                </div>
+                </div>
+                 
+                <div class="work"><br>
+                    <h1> C and JAVA </h1>
+                    <p class="web-txt"> I possess a comprehensive set of
+                                       technical skills in both C and JAVA
+                                       programming langauge, enabling me to excel
+                                       in diverse software Development projects.
+                    </p>
+                    <div class="layer">
+                        <h3>programming langauge</h3>
+                    </div>
+                </div>
+
+                <div class="work"><br>
+                    <h1>Time-Management skill</h1>
+                    <p class="web-txt">My time Management skills are 
+                                       instrumental in optimizing productivity
+                                       and meeting deadlines effectively.
+                    </p>
+                    <div class="layer">
+                        <h3>Time-Management skill</h3>
+                    </div>
+                </div>
+
+                <div class="work"><br>
+                    <h1>Communication Skill</h1>
+                    <p class="web-txt"> My Communication skill form a 
+                                       strong foundation for effective
+                                       collaboration and understanding
+                                       in any proffessional setting.
+                    </p>
+                    <div class="layer">
+                        <h3>Communication skill</h3>
+                    </div>
+                </div>
+            
+                <div class="work">
+                    <img src="images/com.jpg" >
+                    <div class="layer">
+                     <h3>Social Media App</h3>
+                     <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <a href=https://student-pummykumari.github.io/BUBBLE-GAME/
+                        "><i class="fa-solid fa-download"></i></a>
+                </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/html.jpg">
+                    <div class="layer">
+                    <h3>Learn about the HTML</h3>
+                     <p>The logo connects you to the talented people around the world.
+                        Extra Learn, got ot w3schhols Online Tutorial.</p>
+                        <a href="https://www.w3schools.com/"><i class="fa-solid fa-download"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/css.jpg" >
+                    <div class="layer">
+                    <h3>Learn about the CSS</h3>
+                     <p>The logo connects you to the talented people around the world.
+                        Extra Learn, got ot w3schhols Online Tutorial.</p>
+                        <a href="https://www.w3schools.com/"><i class="fa-solid fa-download"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/js.jpg" alt="">
+                     <div class="layer">
+                    <h3>Learn about the JS</h3>
+                     <p>The logo connects you to the talented people around the world.
+                        Extra Learn, got ot w3schhols Online Tutorial.</p>
+                        <a href="https://www.w3schools.com/"><i class="fa-solid fa-download"></i></a>
+                </div>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!--  ...............Contact............-->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class="fa-solid fa-envelope"></i>kpummy01@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8252686613</p>
+                   <div class="social_icon">
+                    <a href="https://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://linkedin.com/in/pummy-kumari-514685270"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Student-pummykumari"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                 </div>
+                 <a href="images/PummyKumariResume111.pdf" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact_right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message"  cols="" rows="6" placeholder="Your meassage"> </textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>THANK YOU <i class="fa-solid fa-smile"></i></p>
+        </div>
+    
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-link");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+</body>
+</html>
